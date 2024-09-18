@@ -1,0 +1,245 @@
+.ayushi{
+    display: flex;
+    justify-content: space-around;
+    background-color:black;
+    color: white;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    /* position: relative; */
+    z-index: 1;
+
+}
+
+
+.ayushi ul li{
+    display: inline;
+    padding: 40px;
+}
+.ayushi h1{
+    color: white;
+}
+
+.ayu{
+    background-color: black;
+    color: rgb(187, 154, 154);
+    height: 8vh;
+
+   
+}
+.ayu h1{
+    color: white;
+}
+.ayu button{
+    margin-left: 1000px;
+    border: 1px solid;
+    border-radius: 6px;
+}
+.ayushi input{
+    border: 1px solid;
+    border-radius: 6px;
+}
+#ayuu{
+    overflow: hidden;
+
+}
+#ayuu figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 8s ayuu infinite;
+}
+#ayuu figure img{
+    float: left;
+    width: 20%;
+}
+@keyframes ayuu {
+    0%{
+        /* left: 0; */
+      right: -100%;
+    }
+    20%{
+        /* left: 0; */
+       right: -100%;
+    }
+    25%{
+        left: -100%;
+        
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+right: -100%;
+    }
+    75%{
+        left: -200%;
+    }
+ 
+}
+
+.recipe{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+   
+}
+.rec{
+    border-radius: 10px;
+    border: 1px solid rgb(165, 159, 159);
+}
+/* .recipe h1{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: large;
+} */
+ .rec a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: #333;
+    color: whitesmoke;
+    padding: 10px 0;
+    border: 1px;
+    border-radius: 5px;
+ }
+ .rec p{
+    display: block;
+    text-align: center;
+ }
+
+ .email form{
+   
+    color: white;
+    height: 200px;
+    width: 300px;
+ margin-left: 550px;
+ /* margin-top: 20px; */
+ padding: 20px;
+ padding-bottom: 40px;
+ justify-content: space-around;
+ background-image: linear-gradient(black,white,black);
+
+ }
+ .email input{
+    display: flex;
+    justify-content: center;
+    
+ }
+ h1{
+    display: flex;
+    justify-content: center;
+    color: black;
+   
+  
+ }
+ .faa{
+   
+    padding-bottom: -50px;
+    height: 40vh;
+    background-color: black;
+    color: white;
+}
+.faa h2{
+    text-align: end; 
+}
+.faa p{
+    padding-left: 80px;
+    font-size: x-large;
+    text-decoration:underline;
+   padding-top: 40px;
+
+}
+.faa h3{
+    text-decoration:line-through;
+
+}
+.faa h4 li{
+    display: inline;
+    justify-content:space-around;
+    padding: 60px;
+}
+.faa h5{
+    padding-left: 600px;
+}
+.rec:hover{
+    transform: scale(1.1);
+    transition: all 0.7s;
+}
+.sub:hover{
+    transform: scale(1.1);
+    transition: all 0.7s;
+}
+
+.dark{
+background-color: black;
+    color: aliceblue;
+    }
+    button{
+        background-color: black;
+        color: white;
+        border-radius: 7px;
+        cursor: pointer;
+    }
+.dark nav{
+    background-color: rgb(195, 190, 190);
+    color: black;
+}
+.dark h1{
+    background-color: rgb(195, 190, 190);
+/* height: -10px; */
+    
+}
+.dark .qr .email h1{
+    height: 5px;
+}
+.dark .faa{
+    background-color: rgb(195, 190, 190);
+    color: black;
+}
+.container {
+    /* text-align: center; 
+    background: white;
+    padding: 20px;
+    border-radius: 8px;*/
+    /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);   */
+    /* height: 300px;
+    width: 300px;  */
+   position: absolute;
+top: 1870px;
+padding-left: 100px;
+ 
+
+
+}
+
+
+.qr{
+    display: flex;
+    justify-content: space-around;
+
+    
+
+}
+/* #qrcode{
+    height: 100px;
+    width: 100px; 
+    background-color: brown;
+} */
+ 
+.qr .email h1{
+padding-bottom: 40px;
+}
+.email form{
+   margin-top: -20px;
+}
+.ayushi li button{
+border: 2px solid white;
+/* box-sizing: border-box; */
+
+}
+.ayushi li button:hover{
+    transform: scale(1.1);
+    transition: all 0.7s;
+}
