@@ -7,7 +7,6 @@ Welcome to the Recipe Book project! This is a simple web application that allows
 ## Features
 
 - **View Recipes**: Browse a collection of recipes with detailed descriptions.
-- **Add Recipes**: Users can submit their own recipes to the book.
 - **Interactive UI**: Dynamic elements that enhance the user experience.
 
 
